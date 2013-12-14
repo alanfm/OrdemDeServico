@@ -103,7 +103,6 @@
         <div class="panel-heading">Listar Clientes</div>
         <div class="panel-body">
             <input class="form-control input-lg" type="text" placeholder="Digite o nome do Cliente">
-            ter
         </div>
     </div>
 </div>

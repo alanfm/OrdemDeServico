@@ -13,6 +13,11 @@ $smarty->cache_dir    = 'paginas/cache/';
 $smarty->assign('title', '.: Ordem de Serviços :.');
 $smarty->assign('base', '//127.0.0.1/ordemdeservico/OrdemDeServico');
 
+if (!empty($_GET['rota']) && substr($_GET['rota'], -1) == '/')
+{
+    $_GET['rota'] = substr($_GET['rota'], 0, -1);
+}
+
 if (!empty($_GET['rota']) && $_GET['rota'] == 'login')
 {
   $smarty->display('login.tpl');
