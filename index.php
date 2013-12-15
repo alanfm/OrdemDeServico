@@ -11,7 +11,7 @@ $smarty->cache_dir    = 'paginas/cache/';
 
 // Constantes da página
 $smarty->assign('title', '.: Ordem de Serviços :.');
-$smarty->assign('base', '//127.0.0.1/ordemdeservico/OrdemDeServico');
+$smarty->assign('base', '//localhost/ordemdeservico/');
 
 if (!empty($_GET['rota']) && substr($_GET['rota'], -1) == '/')
 {
