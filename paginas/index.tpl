@@ -59,7 +59,7 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clientes <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="clientes/cadastro">Novo</a></li>
-                                    <li><a href="#">Buscar</a></li>
+                                    <li><a href="clientes/buscar">Buscar</a></li>
                                     <li class="divider"></li>
                                     <li class="dropdown-header">Relatórios</li>
                                     <li><a href="#">Ativos</a></li>
@@ -107,7 +107,7 @@
                                     <li class="dropdown-header">Relatórios</li>
                                     <li><a href="#">Logs</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">Sair</a></li>
+                                    <li><a href="login">Sair</a></li>
                                 </ul>
                             </li>
                             

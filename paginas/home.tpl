@@ -246,31 +246,40 @@
         </div>
         <div class="col-md-12">
             <div class="panel panel-default">
-                <div class="panel-heading">Geral</div>
+                <div class="panel-heading">Concluidas</div>
                 <div class="panel-body">
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th>OS abertas</th>
-                                <th>OS pendentes</th>
-                                <th>OS fechadas</th>
-                                <th>Total de OS</th>
+                                <th>Id</th>
+                                <th>Cliente</th>
+                                <th>Opções</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>
-                                    15
+                                    00011234
                                 </td>
                                 <td>
-                                    3
+                                    Fulano dos Anzois Pereira
+                                </td>
+                                <td>                                    
+                                    <a href="#" class="btn btn-primary btn-xs">Entregar</a>
                                 </td>
                                 <td>
-                                    150
+                            </tr>
+                            <tr>
+                                <td>
+                                    0045677
                                 </td>
                                 <td>
-                                    168
+                                    Cicrano da Silva
                                 </td>
+                                <td>                                    
+                                    <a href="#" class="btn btn-primary btn-xs">Entregar</a>
+                                </td>
+                                <td>
                             </tr>
                         </tbody>
                     </table>
